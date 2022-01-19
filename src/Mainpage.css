@@ -1,0 +1,206 @@
+#main_container {
+    width: 100%;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    animation:fadeInBackground;
+    background-image: url(images/background_image.jpg);
+    animation-duration:9s;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+        /* Center form controls */
+    display: inline-block;
+    justify-content: center;
+    align-items:center;
+
+        /* Override Bootstrap's 100% width for form controls */
+        /* width: auto; */
+}
+@keyframes fadeInBackground {
+    0% { opacity:0}
+    100% { opacity:1}
+}
+
+.jumbotron {
+    /* padding-top: 20%; */
+    position: relative;
+    text-align: right;
+    color: white;
+    animation: nameAnimation;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-duration: 4.5s;
+    top: 27%;
+    font-size: 60px;
+    
+}
+
+@keyframes nameAnimation {
+    from {color:white;}
+    to {color: #212529;}
+}
+
+
+.jumbotron2 {
+    position: relative;
+    color: #212529;
+    text-align: right;
+    top: 26%;
+    padding-bottom: 2.5%;
+    animation: descriptionAnimation;
+    animation-fill-mode: forwards;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    font-size: 36px;
+}
+
+@keyframes descriptionAnimation {
+    0% {color: transparent; left: -50%;}
+    25% { color:transparent; left: -25%;}
+    50% { color:#4c555e; left: -12.5%; }
+    75% { left: 0%; }
+    100% { color: #212529; text-align:right ;}
+}
+
+.pageCushion {
+    width: 100%;
+    height: 40px;
+    background-color: #110f16;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+#down_arrow {
+    background-image: url(images/down_arrow.gif);
+    margin: 0;
+    width: 35px;
+    height:35px;
+    background-repeat: no-repeat;
+    transform:translate(0%,-2px);
+    align-items:none;
+}
+
+
+#borderContainer {
+    margin-top:0;
+    padding:0;
+    border:0;
+    position:relative;
+    height: 100%;
+}
+
+#navbar {
+    padding-top: 0;
+    margin-top: 0;
+    border-top: 0;
+    border:0;
+    max-width: 100%;
+    background: white;
+    display: block;
+    height: 40px;
+}
+
+.nav-link {
+    color: #3a3a3a; 
+}
+
+#copyright {
+    padding-right: 3px;
+    color: rgba(255, 255, 255, 0.151);
+    padding-left: 15px;
+}
+
+#ccLink {
+    color: rgba(255, 255, 255, 0.151);
+    text-decoration: none;
+    border-bottom: dotted 1px;
+    padding-right: 15px;
+}
+
+#listItems {
+    color: black;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 0;
+    padding-left: 0;
+    transform:translate(-20%,125%);
+    width:100%;
+    animation:lefttoright;
+    animation-duration: 5.25s;
+    animation-timing-function: linear;
+}
+@keyframes lefttoright {
+    from {transform:translate(100%,125%)}
+    to {transform:translate(-20%,125%)}
+}
+
+
+
+.links {
+    text-decoration: none; 
+    background-color: none;
+    color: black;
+}
+
+
+
+@media screen and (max-width: 500px) {
+    #ccLink {  
+        font-size:7.5px;
+        padding-right: 0px;
+    }
+    .jumbotron {
+        font-size: 40px;
+        line-height: 0.9;
+        transform:translate(0,-30%);
+    }
+
+    .jumbotron2{
+        font-size: 24px;
+        transform:translate(0,-25%);
+
+    }
+
+    #copyright {
+        font-size: 7.5px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    #listItems {
+        transform:translate(0%,92%);
+        animation:lefttoright;
+        animation-duration: 5.25s;
+        animation-timing-function: linear;
+    }
+    @keyframes lefttoright {
+        from {transform:translate(100%,112%)}
+        to {transform:translate(0%,112%)}
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    #listItems {
+        transform:translate(0%,70%);
+        animation:lefttoright;
+        animation-duration: 5.25s;
+        animation-timing-function: linear;
+    }
+    @keyframes lefttoright {
+        from {transform:translate(100%,70%)}
+        to {transform:translate(0%,70%)}
+    }
+
+    .jumbotron{
+        top: 22%;
+    }
+
+    .jumbotron2{
+        top: 21.5%;
+    }
+}    
