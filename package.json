@@ -1,7 +1,7 @@
 {
   "name": "homepage",
+  "homepage": "http://bobboy65.github.io/homepage",
   "version": "0.1.0",
-  "homepage": "",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
@@ -11,12 +11,12 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "howler": "^2.2.3",
-    "node-sass": "^6.0.1",
+    "jquery": "^3.6.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.2.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^4.0.3",
+    "react-scripts": "^3.0.1",
     "web-vitals": "^1.1.2",
     "yarn": "^1.22.17"
   },
@@ -24,6 +24,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -47,5 +49,9 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^3.2.3",
+    "sass": "^1.49.0"
+  }
 }

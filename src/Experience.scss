@@ -45,7 +45,7 @@ body {
 
 .lines {
   list-style-type: none;
-  height: 100%;
+  height: 90%;
   position: relative;
 }
 .line {
@@ -105,7 +105,7 @@ body {
 .chart__title {
   display: block;
   margin: 0 0 10px;
-
+  margin-top: 30px;
   font-weight: bold;
 
   opacity: 0;
@@ -118,6 +118,7 @@ body {
   }
   .chart--design & {
     animation-delay: 4.5s;
+    margin-top: 55px;
   }
 }
 
@@ -156,6 +157,15 @@ body {
   color: white;
 }
 
+#align {
+  transform: translate(5px, 0);
+}
+
+#align2 {
+  transform: translate(-37px, 0)
+}
+
+
 //Keyframes
 @keyframes anim-lightspeed-in {
   0% {
@@ -166,4 +176,34 @@ body {
     transform: translateX(0);
     opacity: 1;
   }
+}
+
+@media screen and (max-width: 500px)  {
+  .chart__bar {
+    margin-bottom: 15px;
+  }
+
+  .skills {
+    font-size: 10px;
+  }
+
+  .lines { 
+    height: 93%
+  }
+
+  .line__label {
+    bottom: -50px;
+  }
+
+
+  // chart__title {
+
+  // }
+}
+
+@media screen and (min-width: 500px) {
+   .line__label title {
+     text-align: right;
+    //  transform: translate(10px, 0)
+   }
 }
