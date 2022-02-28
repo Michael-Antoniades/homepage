@@ -68,12 +68,12 @@ function Experience() {
             </li>
             <li class="chart__bar" style={{width: '75%'}}>
               <span class="chart__label">
-                SQL
+                React JS / JS
               </span>
             </li>
             <li class="chart__bar" style={{width: '65%'}}>
               <span class="chart__label">
-                ReactJS
+                SQL
               </span>
             </li>
             <li class="chart__bar" style={{width: '55%'}}>
@@ -83,27 +83,27 @@ function Experience() {
             </li>
             <li class="chart__bar" style={{width: '45%'}}>
               <span class="chart__label">
-              JavaScript
+              Restful APIs
               </span>
             </li>
             <li class="chart__bar" style={{width: '45%'}}>
               <span class="chart__label">
-              NodeJS/yarn
+              NodeJS / Express JS
               </span>
             </li>
             <li class="chart__bar" style={{width: '40%'}}>
               <span class="chart__label">
-              Linux (Ubuntu 20.04)
+              AWS / Heroku / Netlify stacks
               </span>
             </li>
             <li class="chart__bar" style={{width: '30%'}}>
               <span class="chart__label">
-              Matlab
+              Linux (Ubuntu 20.04)
               </span>
             </li>
             <li class="chart__bar" style={{width: '25%'}}>
               <span class="chart__label">
-              jquery
+              Matlab
               </span>
             </li>
       </ul>

@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import BrowserRouter from 'react-router-dom/BrowserRouter'
 import './index.css';
 
 import Mainpage from './Mainpage';
@@ -8,6 +9,7 @@ import Experience from './Experience';
 
 
 ReactDOM.render(
+    <BrowserRouter basename = {process.env.PUBLIC_URL}>
     <div id = "container">
       
 
@@ -15,7 +17,8 @@ ReactDOM.render(
       <Portfolio /> 
       <Experience />
     </div>
-      // <Portfolio /> 
+      </BrowserRouter>
+
 
   ,document.getElementById('root')
 );

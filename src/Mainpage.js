@@ -31,7 +31,7 @@ function Mainpage() {
 
         <main class="px-3" id = "main_container">
             <h1 class = 'jumbotron' > Hi, I'm Mike Antoniades  </h1>
-            <h3 class = 'jumbotron2'> Developer • Student • Entrepreneur   </h3>
+            <h3 class = 'jumbotron2'> Developer • Professional • Entrepreneur   </h3>
 
             <ul id = "listItems"> 
             <a href = "mailto:michaelantoniades18@gmail.com" target = "blank" class = "links" >    
@@ -81,7 +81,7 @@ function Mainpage() {
                 </li>
             </a>    
 
-            <a href = "https://www.linkedin.com/in/michael-antoniades" target = "blank" class = "links" >
+            <a href = "https://twitter.com/Mike_Antoniades" target = "blank" class = "links" >
                 <li id = "twitter" style={{ display: 'inline-block', position: 'relative' }}> 
                     <GiCircle size = {70} textAnchor="middle" alignmentBaseline="middle" />
                     <BsTwitter size = {40}

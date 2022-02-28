@@ -172,9 +172,12 @@
     }
 
     .jumbotron2{
-        font-size: 24px;
+        font-size: 21px;
         transform:translate(0,-25%);
 
+    }
+    #listItems {
+        top: 5%;
     }
 
     #copyright {
@@ -190,13 +193,16 @@
         animation-timing-function: linear;
     }
     @keyframes lefttoright {
-        from {transform:translate(100%,112%)}
-        to {transform:translate(0%,112%)}
+        from {transform:translate(100%,60%)}
+        to {transform:translate(-20%,60%)}
     }
 }
 
 @media screen and (min-width: 1024px) {
 
+    #listItems {
+        top: -10%;
+    }
     #listItems {
         transform:translate(0%,50%);
         animation:lefttoright;
@@ -204,21 +210,21 @@
         animation-timing-function: linear;
     }
     @keyframes lefttoright {
-        from {transform:translate(100%,70%)}
-        to {transform:translate(0%,70%)}
+        from {transform:translate(100%,80%)}
+        to {transform:translate(0%,80%)}
     }
 
     .jumbotron{
-        top: 22%;
+        top: 19%;
     }
 
     .jumbotron2{
-        top: 21.5%;
+        top: 18.5%;
     }
 }    
 
 @media screen and (min-width: 1000px) {
     #listItems {
-        transform:translate(0%,180px);
+        transform:translate(-3%,180px);
     }
 }
