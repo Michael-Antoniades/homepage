@@ -70,7 +70,7 @@ function Mainpage() {
 
                 <br></br>
 
-            <a href = "https://etherscan.io/address/0x3caea97e7ce1d9565ac4cccd269b7ce09c5a3552" target = "blank" class = "links" >
+            <a href = "https://etherscan.io/" target = "blank" class = "links" >
                 <li id = "ethWallet" style={{ display: 'inline-block', position: 'relative' }}> 
                     <GiCircle size = {70} textAnchor="middle" alignmentBaseline="middle" />
                     <FaEthereum size = {40}
