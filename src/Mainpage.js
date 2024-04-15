@@ -97,7 +97,7 @@ function Mainpage() {
             <footer>
             <div class = "pageCushion"> 
                 <a href="#projectScrollTag" > <div id = "down_arrow"> </div> </a>
-                <div id = "copyright" >  © 2021 Michael Antoniades. Content available under </div> 
+                <div id = "copyright" >  © 2021-2024 Michael Antoniades. Content available under </div> 
                 <a href="https://creativecommons.org/licenses/by-nc/3.0/us/" id = "ccLink"> CC BY-NC 3.0 license</a>
                 <a href="#projectScrollTag" > <div id = "down_arrow"> </div> </a>
             </div>
